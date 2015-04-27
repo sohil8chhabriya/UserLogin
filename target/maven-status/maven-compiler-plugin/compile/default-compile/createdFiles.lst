@@ -1,0 +1,4 @@
+authplugin\domain\LoginDetails.class
+authplugin\dao\LoginDetailsDaoImpl.class
+authplugin\mvc\LoginDetailsController.class
+authplugin\dao\LoginDetailsDao.class

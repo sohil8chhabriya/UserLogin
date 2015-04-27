@@ -40,6 +40,9 @@
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
+                <configuration>
+                    <ignorePackaging>true</ignorePackaging>
+                </configuration>
             </plugin>
         </plugins>
     </build>
@@ -60,11 +63,11 @@
         </dependency>
 
         <!--Hibernate and database dependencies-->
-        <dependency>
+        <!--dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>1.4.179</version>
-        </dependency>
+        </dependency-->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
